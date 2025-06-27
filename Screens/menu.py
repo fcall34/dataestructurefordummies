@@ -1,5 +1,7 @@
 from UIS.menuTemas_ui import Ui_MenuTemas
+from Screens.Grafos.MenuGrafos import VentanaGrafos
 from PySide6.QtWidgets import QMainWindow
+from Screens.Listas.ListasMenu import VentanaListas
 
 class MenuPrincipal(QMainWindow):
     def __init__(self):
@@ -16,13 +18,15 @@ class MenuPrincipal(QMainWindow):
         self.ui.btnStrassen.clicked.connect(self.abrir_strassen)
 
     def abrir_listas(self):
-        print("Abrir tema de listas") 
+        self.ListasMenu = VentanaListas()
+        self.ListasMenu.show() 
 
     def abrir_arboles(self):
         print("Abrir tema de Arboles") 
 
     def abrir_grafos(self):
-        print("Abrir tema de Grafos") 
+        self.GrafosMenu = VentanaGrafos()
+        self.GrafosMenu.show() 
 
     def abrir_Ordenamiento(self):
         print("Abrir tema de Ordenamiento") 
