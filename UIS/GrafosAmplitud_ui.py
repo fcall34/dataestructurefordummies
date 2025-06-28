@@ -47,7 +47,7 @@ class Ui_GrafosAmplitud(object):
         self.label_6 = QLabel(self.page)
         self.label_6.setObjectName(u"label_6")
         self.label_6.setGeometry(QRect(60, 270, 651, 211))
-        self.label_6.setPixmap(QPixmap(u"../../../../Im\u00e1genes/Capturas de pantalla/Screenshot 2025-06-27 221253.png"))
+        self.label_6.setPixmap(QPixmap(u"../Sources/Images/Tipos-Grafos.png"))
         GrafosAmplitud.addWidget(self.page)
         self.page_2 = QWidget()
         self.page_2.setObjectName(u"page_2")
@@ -57,8 +57,8 @@ class Ui_GrafosAmplitud(object):
         self.label.setWordWrap(True)
         self.label_7 = QLabel(self.page_2)
         self.label_7.setObjectName(u"label_7")
-        self.label_7.setGeometry(QRect(160, 160, 501, 321))
-        self.label_7.setPixmap(QPixmap(u"../../../../Im\u00e1genes/Capturas de pantalla/Screenshot 2025-06-27 223559.png"))
+        self.label_7.setGeometry(QRect(140, 140, 501, 321))
+        self.label_7.setPixmap(QPixmap(u"../Sources/Images/Camino-grafos.png"))
         self.btnNext = QPushButton(self.page_2)
         self.btnNext.setObjectName(u"btnNext")
         self.btnNext.setGeometry(QRect(680, 490, 75, 24))
@@ -66,7 +66,7 @@ class Ui_GrafosAmplitud(object):
 
         self.retranslateUi(GrafosAmplitud)
 
-        GrafosAmplitud.setCurrentIndex(0)
+        GrafosAmplitud.setCurrentIndex(1)
 
 
         QMetaObject.connectSlotsByName(GrafosAmplitud)

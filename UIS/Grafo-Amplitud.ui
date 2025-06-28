@@ -14,7 +14,7 @@
    <string>StackedWidget</string>
   </property>
   <property name="currentIndex">
-   <number>0</number>
+   <number>1</number>
   </property>
   <widget class="QWidget" name="page">
    <widget class="QPushButton" name="btnComenzar">
@@ -107,7 +107,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../../../Imágenes/Capturas de pantalla/Screenshot 2025-06-27 221253.png</pixmap>
+     <pixmap>../Sources/Images/Tipos-Grafos.png</pixmap>
     </property>
    </widget>
   </widget>
@@ -131,8 +131,8 @@
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>160</y>
+      <x>140</x>
+      <y>140</y>
       <width>501</width>
       <height>321</height>
      </rect>
@@ -141,7 +141,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../../../Imágenes/Capturas de pantalla/Screenshot 2025-06-27 223559.png</pixmap>
+     <pixmap>../Sources/Images/Camino-grafos.png</pixmap>
     </property>
    </widget>
    <widget class="QPushButton" name="btnNext">
