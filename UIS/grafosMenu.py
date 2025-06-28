@@ -25,9 +25,9 @@ class Ui_GrafosWindow(object):
         GrafosWindow.resize(800, 600)
         self.centralwidget = QWidget(GrafosWindow)
         self.centralwidget.setObjectName(u"centralwidget")
-        self.btnAnchura = QPushButton(self.centralwidget)
-        self.btnAnchura.setObjectName(u"btnAnchura")
-        self.btnAnchura.setGeometry(QRect(50, 110, 151, 61))
+        self.btnAmplitud = QPushButton(self.centralwidget)
+        self.btnAmplitud.setObjectName(u"btnAmplitud")
+        self.btnAmplitud.setGeometry(QRect(50, 110, 151, 61))
         self.btnPrim = QPushButton(self.centralwidget)
         self.btnPrim.setObjectName(u"btnPrim")
         self.btnPrim.setGeometry(QRect(430, 330, 161, 51))
@@ -71,7 +71,7 @@ class Ui_GrafosWindow(object):
 
     def retranslateUi(self, GrafosWindow):
         GrafosWindow.setWindowTitle(QCoreApplication.translate("GrafosWindow", u"MainWindow", None))
-        self.btnAnchura.setText(QCoreApplication.translate("GrafosWindow", u"Recorrido en acnhura", None))
+        self.btnAmplitud.setText(QCoreApplication.translate("GrafosWindow", u"Recorrido en Amplitud", None))
         self.btnPrim.setText(QCoreApplication.translate("GrafosWindow", u"Prim", None))
         self.btnProfundida.setText(QCoreApplication.translate("GrafosWindow", u"Recorrido en profundidad", None))
         self.btnKruskal.setText(QCoreApplication.translate("GrafosWindow", u"Kruskal", None))

@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="btnAnchura">
+   <widget class="QPushButton" name="btnAmplitud">
     <property name="geometry">
      <rect>
       <x>50</x>
@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Recorrido en acnhura</string>
+     <string>Recorrido en Amplitud</string>
     </property>
    </widget>
    <widget class="QPushButton" name="btnPrim">
