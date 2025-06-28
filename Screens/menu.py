@@ -2,6 +2,7 @@ from UIS.menuTemas_ui import Ui_MenuTemas
 from Screens.Grafos.MenuGrafos import VentanaGrafos
 from PySide6.QtWidgets import QMainWindow
 from Screens.Listas.ListasMenu import VentanaListas
+from Screens.Ordenamiento.menuOrdenamiento import VentanaOrdenamiento
 
 class MenuPrincipal(QMainWindow):
     def __init__(self):
@@ -29,7 +30,8 @@ class MenuPrincipal(QMainWindow):
         self.GrafosMenu.show() 
 
     def abrir_Ordenamiento(self):
-        print("Abrir tema de Ordenamiento") 
+        self.VentanaOrdenamiento = VentanaOrdenamiento()
+        self.VentanaOrdenamiento.show()
 
     def abrir_hash(self):
         print("Abrir tema de Hash tables")
