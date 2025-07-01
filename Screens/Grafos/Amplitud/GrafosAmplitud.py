@@ -31,39 +31,25 @@ class VentanaGrafosAmplitud(QStackedWidget):
         self.ui.btnNext.clicked.connect(self.avanzar_pagina)
         self.ui.btnNext_2.clicked.connect(self.avanzar_pagina)
         
-        # Ojo: Asegúrate de que 'btnNext_2' exista en tu archivo UI si lo estás usando.
-        # Si no existe, esta línea causará un error. Si no lo necesitas, puedes borrarla.
-        # self.ui.btnNext_2.clicked.connect(self.avanzar_pagina)
-
-        # Conexión del botón de reiniciar la animación
-        # Asegúrate de que 'btnReiniciar' esté en tu archivo UI.
         self.ui.btnReiniciar.clicked.connect(self.reiniciar_animacion)
 
         # Ocultar el mensaje de "Recorrido Terminado" al inicio de la aplicación
         self.ui.lblRecorridoTerminado.hide()
 
     def avanzar_pagina(self):
-        """
-        Avanza a la siguiente página del QStackedWidget.
-        Si se llega a la página de animación (la tercera), inicializa el grafo y el BFS.
-        """
         current_page_index = self.currentIndex()
         total_pages = self.count()
 
-        # Solo avanzamos si no estamos en la última página
         if current_page_index < total_pages - 1:
             self.setCurrentIndex(current_page_index + 1)
 
-            # Si la página actual es la TERCERA (índice 2), mostramos el grafo y comenzamos la animación
-            # La corrección importante: el índice 2 corresponde a la TERCERA página.
+
             if self.currentIndex() == 2:
                 self.mostrar_grafo()
                 self.start_bfs_animation()
-                # Asegurarse de que el mensaje de "Recorrido Terminado" esté oculto al iniciar la animación
+                
                 self.ui.lblRecorridoTerminado.hide()
-        # Si ya estamos en la última página y se presiona un botón de "Siguiente",
-        # no hacemos nada (o podrías agregar otra lógica aquí si la necesitas).
-
+        
     def reiniciar_animacion(self):
         """
         Reinicia el estado de la animación del BFS, restableciendo colores y datos.

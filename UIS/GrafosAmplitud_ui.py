@@ -102,12 +102,12 @@ class Ui_GrafosAmplitud(object):
         self.btnReiniciar.setGeometry(QRect(670, 520, 75, 24))
         self.lblRecorridoTerminado = QLabel(self.page_3)
         self.lblRecorridoTerminado.setObjectName(u"lblRecorridoTerminado")
-        self.lblRecorridoTerminado.setGeometry(QRect(210, 510, 49, 16))
+        self.lblRecorridoTerminado.setGeometry(QRect(210, 510, 231, 16))
         GrafosAmplitud.addWidget(self.page_3)
 
         self.retranslateUi(GrafosAmplitud)
 
-        GrafosAmplitud.setCurrentIndex(0)
+        GrafosAmplitud.setCurrentIndex(3)
 
 
         QMetaObject.connectSlotsByName(GrafosAmplitud)
@@ -145,6 +145,6 @@ class Ui_GrafosAmplitud(object):
 "El grafo, representado como lista de adyacencia o matriz.", None))
         self.btnNext_2.setText(QCoreApplication.translate("GrafosAmplitud", u"Siguiente", None))
         self.btnReiniciar.setText(QCoreApplication.translate("GrafosAmplitud", u"Reiniciar", None))
-        self.lblRecorridoTerminado.setText("")
+        self.lblRecorridoTerminado.setText(QCoreApplication.translate("GrafosAmplitud", u"Recorrido Comletado!!!", None))
     # retranslateUi
 

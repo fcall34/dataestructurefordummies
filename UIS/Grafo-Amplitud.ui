@@ -14,7 +14,7 @@
    <string>StackedWidget</string>
   </property>
   <property name="currentIndex">
-   <number>0</number>
+   <number>3</number>
   </property>
   <widget class="QWidget" name="page">
    <widget class="QPushButton" name="btnComenzar">
@@ -311,12 +311,12 @@ El grafo, representado como lista de adyacencia o matriz.</string>
      <rect>
       <x>210</x>
       <y>510</y>
-      <width>49</width>
+      <width>231</width>
       <height>16</height>
      </rect>
     </property>
     <property name="text">
-     <string/>
+     <string>Recorrido Comletado!!!</string>
     </property>
    </widget>
   </widget>
