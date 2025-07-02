@@ -81,7 +81,7 @@ Pensemos que tus juguetes son números. Digamos que tienes estos</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/camion.png</pixmap>
+     <pixmap>Sources/Images/camion.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -100,7 +100,7 @@ Pensemos que tus juguetes son números. Digamos que tienes estos</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/carro.png</pixmap>
+     <pixmap>Sources/Images/carro.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -119,7 +119,7 @@ Pensemos que tus juguetes son números. Digamos que tienes estos</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/heli.png</pixmap>
+     <pixmap>Sources/Images/heli.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -138,7 +138,7 @@ Pensemos que tus juguetes son números. Digamos que tienes estos</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/robot.png</pixmap>
+     <pixmap>Sources/Images/robot.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -157,7 +157,7 @@ Pensemos que tus juguetes son números. Digamos que tienes estos</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/muñeca.png</pixmap>
+     <pixmap>Sources/Images/muñeca.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -263,7 +263,7 @@ En este caso, escogeremos el de en medio, ¡El numero 3!</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/heli.png</pixmap>
+     <pixmap>Sources/Images/heli.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -347,7 +347,7 @@ Si son mas grandes, se iran a la derecha, si son mas pequeños, a la izquierda.<
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/heli.png</pixmap>
+     <pixmap>Sources/Images/heli.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -366,7 +366,7 @@ Si son mas grandes, se iran a la derecha, si son mas pequeños, a la izquierda.<
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/heli.png</pixmap>
+     <pixmap>Sources/Images/heli.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -385,7 +385,7 @@ Si son mas grandes, se iran a la derecha, si son mas pequeños, a la izquierda.<
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/heli.png</pixmap>
+     <pixmap>Sources/Images/heli.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -404,7 +404,7 @@ Si son mas grandes, se iran a la derecha, si son mas pequeños, a la izquierda.<
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/heli.png</pixmap>
+     <pixmap>Sources/Images/heli.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -423,7 +423,7 @@ Si son mas grandes, se iran a la derecha, si son mas pequeños, a la izquierda.<
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/muñeca.png</pixmap>
+     <pixmap>Sources/Images/muñeca.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -442,7 +442,7 @@ Si son mas grandes, se iran a la derecha, si son mas pequeños, a la izquierda.<
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/camion.png</pixmap>
+     <pixmap>Sources/Images/camion.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -461,7 +461,7 @@ Si son mas grandes, se iran a la derecha, si son mas pequeños, a la izquierda.<
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/carro.png</pixmap>
+     <pixmap>Sources/Images/carro.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -480,7 +480,7 @@ Si son mas grandes, se iran a la derecha, si son mas pequeños, a la izquierda.<
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/robot.png</pixmap>
+     <pixmap>Sources/Images/robot.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -632,7 +632,7 @@ Mas grande, se va a la derecha.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/muñeca.png</pixmap>
+     <pixmap>Sources/Images/muñeca.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -651,7 +651,7 @@ Mas grande, se va a la derecha.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/carro.png</pixmap>
+     <pixmap>Sources/Images/carro.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -670,7 +670,7 @@ Mas grande, se va a la derecha.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/camion.png</pixmap>
+     <pixmap>Sources/Images/camion.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -689,7 +689,7 @@ Mas grande, se va a la derecha.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/robot.png</pixmap>
+     <pixmap>Sources/Images/robot.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -708,7 +708,7 @@ Mas grande, se va a la derecha.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/heli.png</pixmap>
+     <pixmap>Sources/Images/heli.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -817,7 +817,7 @@ helicóptero, escogemos uno para hacer la comparación.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/carro.png</pixmap>
+     <pixmap>Sources/Images/carro.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -836,7 +836,7 @@ helicóptero, escogemos uno para hacer la comparación.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/heli.png</pixmap>
+     <pixmap>Sources/Images/heli.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -855,7 +855,7 @@ helicóptero, escogemos uno para hacer la comparación.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/muñeca.png</pixmap>
+     <pixmap>Sources/Images/muñeca.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -874,7 +874,7 @@ helicóptero, escogemos uno para hacer la comparación.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/camion.png</pixmap>
+     <pixmap>Sources/Images/camion.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -893,7 +893,7 @@ helicóptero, escogemos uno para hacer la comparación.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/robot.png</pixmap>
+     <pixmap>Sources/Images/robot.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>

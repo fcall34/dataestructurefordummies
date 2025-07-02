@@ -1,6 +1,7 @@
 from UIS.grafosMenu import Ui_GrafosWindow
 from Screens.Grafos.Amplitud.GrafosAmplitud import VentanaGrafosAmplitud
 from Screens.Grafos.Profundidad.GrafosProfundidad import VentanaGrafosProfundidad
+from Screens.Grafos.Dijkstra.Dijkstra import VentanDijkstra
 from PySide6.QtWidgets import QMainWindow
 
 class VentanaGrafos(QMainWindow):
@@ -11,6 +12,7 @@ class VentanaGrafos(QMainWindow):
 
         self.ui.btnAmplitud.clicked.connect(self.abrir_Amplitud)
         self.ui.btnProfundida.clicked.connect(self.abrir_Profundidad)
+        self.ui.btndijkstra.clicked.connect(self.abrir_dijkstra)
 
 
     def abrir_Amplitud(self):
@@ -20,4 +22,8 @@ class VentanaGrafos(QMainWindow):
     def abrir_Profundidad(self):
         self.Profundidad = VentanaGrafosProfundidad()
         self.Profundidad.show()
+
+    def abrir_dijkstra(self):
+        self.dijkstra = VentanDijkstra()
+        self.dijkstra.show()
 

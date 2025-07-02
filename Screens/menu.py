@@ -1,5 +1,6 @@
 from UIS.menuTemas_ui import Ui_MenuTemas
 from Screens.Grafos.MenuGrafos import VentanaGrafos
+from Screens.HashTables.hashTables import VentanaHashTables
 from PySide6.QtWidgets import QMainWindow
 from Screens.Listas.ListasMenu import VentanaListas
 from Screens.Ordenamiento.menuOrdenamiento import VentanaOrdenamiento
@@ -34,7 +35,8 @@ class MenuPrincipal(QMainWindow):
         self.VentanaOrdenamiento.show()
 
     def abrir_hash(self):
-        print("Abrir tema de Hash tables")
+        self.hashTables = VentanaHashTables()
+        self.hashTables.show()
 
     def abrir_strassen(self):
         print("Abrir tema de Metodo strassen")  

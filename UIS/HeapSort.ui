@@ -52,7 +52,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/sillon.png</pixmap>
+     <pixmap>Sources/Images/sillon.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -113,7 +113,7 @@ PERO OJO, debes poner el mas grande hasta arriba de todos los juguetes</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/camion.png</pixmap>
+     <pixmap>Sources/Images/camion.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -132,7 +132,7 @@ PERO OJO, debes poner el mas grande hasta arriba de todos los juguetes</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/carro.png</pixmap>
+     <pixmap>Sources/Images/carro.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -151,7 +151,7 @@ PERO OJO, debes poner el mas grande hasta arriba de todos los juguetes</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/heli.png</pixmap>
+     <pixmap>Sources/Images/heli.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -170,7 +170,7 @@ PERO OJO, debes poner el mas grande hasta arriba de todos los juguetes</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/muñeca.png</pixmap>
+     <pixmap>Sources/Images/muñeca.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -189,7 +189,7 @@ PERO OJO, debes poner el mas grande hasta arriba de todos los juguetes</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/robot.png</pixmap>
+     <pixmap>Sources/Images/robot.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -290,7 +290,7 @@ el juguete de hasta arriba para ponerlo en el lugar donde lo vamos a guardar.</s
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/sillon.png</pixmap>
+     <pixmap>Sources/Images/sillon.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -309,7 +309,7 @@ el juguete de hasta arriba para ponerlo en el lugar donde lo vamos a guardar.</s
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/heli.png</pixmap>
+     <pixmap>Sources/Images/heli.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -328,7 +328,7 @@ el juguete de hasta arriba para ponerlo en el lugar donde lo vamos a guardar.</s
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/carro.png</pixmap>
+     <pixmap>Sources/Images/carro.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -347,7 +347,7 @@ el juguete de hasta arriba para ponerlo en el lugar donde lo vamos a guardar.</s
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/camion.png</pixmap>
+     <pixmap>Sources/Images/camion.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -366,7 +366,7 @@ el juguete de hasta arriba para ponerlo en el lugar donde lo vamos a guardar.</s
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/robot.png</pixmap>
+     <pixmap>Sources/Images/robot.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -385,7 +385,7 @@ el juguete de hasta arriba para ponerlo en el lugar donde lo vamos a guardar.</s
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/muñeca.png</pixmap>
+     <pixmap>Sources/Images/muñeca.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -426,7 +426,7 @@ el juguete de hasta arriba para ponerlo en el lugar donde lo vamos a guardar.</s
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/robot.png</pixmap>
+     <pixmap>Sources/Images/robot.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -445,7 +445,7 @@ el juguete de hasta arriba para ponerlo en el lugar donde lo vamos a guardar.</s
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/mueble.png</pixmap>
+     <pixmap>Sources/Images/mueble.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -538,7 +538,7 @@ sillón para ponerlo en el mueble</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/heli.png</pixmap>
+     <pixmap>Sources/Images/heli.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -557,7 +557,7 @@ sillón para ponerlo en el mueble</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/camion.png</pixmap>
+     <pixmap>Sources/Images/camion.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -598,7 +598,7 @@ sillón para ponerlo en el mueble</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/sillon.png</pixmap>
+     <pixmap>Sources/Images/sillon.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -617,7 +617,7 @@ sillón para ponerlo en el mueble</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/muñeca.png</pixmap>
+     <pixmap>Sources/Images/muñeca.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -636,7 +636,7 @@ sillón para ponerlo en el mueble</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/carro.png</pixmap>
+     <pixmap>Sources/Images/carro.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -655,7 +655,7 @@ sillón para ponerlo en el mueble</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/camion.png</pixmap>
+     <pixmap>Sources/Images/camion.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -674,7 +674,7 @@ sillón para ponerlo en el mueble</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/heli.png</pixmap>
+     <pixmap>Sources/Images/heli.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -693,7 +693,7 @@ sillón para ponerlo en el mueble</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/robot.png</pixmap>
+     <pixmap>Sources/Images/robot.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -712,7 +712,7 @@ sillón para ponerlo en el mueble</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/mueble.png</pixmap>
+     <pixmap>Sources/Images/mueble.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -731,7 +731,7 @@ sillón para ponerlo en el mueble</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/muñeca.png</pixmap>
+     <pixmap>Sources/Images/muñeca.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -785,7 +785,7 @@ sillón para ponerlo en el mueble</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/sillon.png</pixmap>
+     <pixmap>Sources/Images/sillon.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -804,7 +804,7 @@ sillón para ponerlo en el mueble</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/mueble.png</pixmap>
+     <pixmap>Sources/Images/mueble.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -863,7 +863,7 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/robot.png</pixmap>
+     <pixmap>Sources/Images/robot.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -882,7 +882,7 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/muñeca.png</pixmap>
+     <pixmap>Sources/Images/muñeca.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -901,7 +901,7 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/heli.png</pixmap>
+     <pixmap>Sources/Images/heli.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -920,7 +920,7 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/camion.png</pixmap>
+     <pixmap>Sources/Images/camion.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -939,7 +939,7 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/carro.png</pixmap>
+     <pixmap>Sources/Images/carro.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -980,7 +980,7 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/heli.png</pixmap>
+     <pixmap>Sources/Images/heli.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1001,7 +1001,7 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/muñeca.png</pixmap>
+     <pixmap>Sources/Images/muñeca.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1020,7 +1020,7 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/heli.png</pixmap>
+     <pixmap>Sources/Images/heli.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1039,7 +1039,7 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/sillon.png</pixmap>
+     <pixmap>Sources/Images/sillon.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1058,7 +1058,7 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/robot.png</pixmap>
+     <pixmap>Sources/Images/robot.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1112,7 +1112,7 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/mueble.png</pixmap>
+     <pixmap>Sources/Images/mueble.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1131,7 +1131,7 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/carro.png</pixmap>
+     <pixmap>Sources/Images/carro.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1150,7 +1150,7 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/camion.png</pixmap>
+     <pixmap>Sources/Images/camion.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1215,7 +1215,7 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/carro.png</pixmap>
+     <pixmap>Sources/Images/carro.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1312,7 +1312,7 @@ Habremos acabado de ordenar con nuestro amigo HEAP SORT.
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/sillon.png</pixmap>
+     <pixmap>Sources/Images/sillon.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1331,7 +1331,7 @@ Habremos acabado de ordenar con nuestro amigo HEAP SORT.
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/mueble.png</pixmap>
+     <pixmap>Sources/Images/mueble.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1369,7 +1369,7 @@ Habremos acabado de ordenar con nuestro amigo HEAP SORT.
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/heli.png</pixmap>
+     <pixmap>Sources/Images/heli.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1388,7 +1388,7 @@ Habremos acabado de ordenar con nuestro amigo HEAP SORT.
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/carro.png</pixmap>
+     <pixmap>Sources/Images/carro.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1407,7 +1407,7 @@ Habremos acabado de ordenar con nuestro amigo HEAP SORT.
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/muñeca.png</pixmap>
+     <pixmap>Sources/Images/muñeca.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1426,7 +1426,7 @@ Habremos acabado de ordenar con nuestro amigo HEAP SORT.
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/robot.png</pixmap>
+     <pixmap>Sources/Images/robot.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1445,7 +1445,7 @@ Habremos acabado de ordenar con nuestro amigo HEAP SORT.
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/camion.png</pixmap>
+     <pixmap>Sources/Images/camion.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
