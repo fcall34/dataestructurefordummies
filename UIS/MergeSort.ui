@@ -23,16 +23,17 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>250</x>
+      <x>230</x>
       <y>20</y>
-      <width>271</width>
+      <width>311</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Caprasimo</family>
       <pointsize>32</pointsize>
-      <bold>true</bold>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
@@ -130,16 +131,17 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>50</x>
       <y>100</y>
-      <width>621</width>
+      <width>661</width>
       <height>91</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Caprasimo</family>
       <pointsize>12</pointsize>
-      <bold>true</bold>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
@@ -277,38 +279,20 @@ de nuevo dividirlos hasta que esten en grupos de 1. </string>
    </widget>
   </widget>
   <widget class="QWidget" name="page_2">
-   <widget class="QLabel" name="label_4">
-    <property name="geometry">
-     <rect>
-      <x>250</x>
-      <y>20</y>
-      <width>271</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>32</pointsize>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>MERGE SORT</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
       <x>60</x>
       <y>70</y>
-      <width>631</width>
+      <width>651</width>
       <height>91</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Caprasimo</family>
       <pointsize>12</pointsize>
-      <bold>true</bold>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
@@ -546,8 +530,9 @@ guardarlos. Juntaremos dos bloques, y nos preguntaremos:
     </property>
     <property name="font">
      <font>
+      <family>Caprasimo</family>
       <pointsize>12</pointsize>
-      <bold>true</bold>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
@@ -570,8 +555,9 @@ El mas grande irá arriba</string>
     </property>
     <property name="font">
      <font>
+      <family>Caprasimo</family>
       <pointsize>12</pointsize>
-      <bold>true</bold>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
@@ -599,6 +585,26 @@ El mas grande irá arriba</string>
      <string>SIGUIENTE</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>20</y>
+      <width>311</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>32</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>MERGE SORT</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QWidget" name="page_3">
    <widget class="QPushButton" name="btnNext_3">
@@ -617,25 +623,6 @@ El mas grande irá arriba</string>
      <string>SIGUIENTE</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_10">
-    <property name="geometry">
-     <rect>
-      <x>250</x>
-      <y>20</y>
-      <width>271</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>32</pointsize>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>MERGE SORT</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_11">
     <property name="geometry">
      <rect>
@@ -647,8 +634,9 @@ El mas grande irá arriba</string>
     </property>
     <property name="font">
      <font>
+      <family>Caprasimo</family>
       <pointsize>12</pointsize>
-      <bold>true</bold>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
@@ -866,8 +854,9 @@ Pero aún no están ordenados, debemos hacernos una cosa más. </string>
     </property>
     <property name="font">
      <font>
+      <family>Caprasimo</family>
       <pointsize>12</pointsize>
-      <bold>true</bold>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
@@ -886,35 +875,41 @@ el más pequeño va hasta abajo y
      <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
-  </widget>
-  <widget class="QWidget" name="page_4">
-   <widget class="QLabel" name="label_14">
+   <widget class="QLabel" name="label_10">
     <property name="geometry">
      <rect>
-      <x>250</x>
+      <x>230</x>
       <y>20</y>
-      <width>271</width>
+      <width>311</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Caprasimo</family>
       <pointsize>32</pointsize>
-      <bold>true</bold>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
      <string>MERGE SORT</string>
     </property>
    </widget>
+  </widget>
+  <widget class="QWidget" name="page_4">
    <widget class="QPushButton" name="btnNext_4">
     <property name="geometry">
      <rect>
-      <x>590</x>
+      <x>300</x>
       <y>440</y>
       <width>151</width>
       <height>51</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color:rgb(108, 88, 59)</string>
@@ -927,13 +922,14 @@ el más pequeño va hasta abajo y
     <property name="geometry">
      <rect>
       <x>60</x>
-      <y>100</y>
+      <y>70</y>
       <width>631</width>
       <height>121</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Caprasimo</family>
       <pointsize>12</pointsize>
       <bold>true</bold>
      </font>
@@ -953,7 +949,7 @@ Gracias MERGE SORT por la ayuda.
     <property name="geometry">
      <rect>
       <x>300</x>
-      <y>400</y>
+      <y>350</y>
       <width>151</width>
       <height>51</height>
      </rect>
@@ -975,7 +971,7 @@ Gracias MERGE SORT por la ayuda.
     <property name="geometry">
      <rect>
       <x>300</x>
-      <y>300</y>
+      <y>250</y>
       <width>151</width>
       <height>51</height>
      </rect>
@@ -997,7 +993,7 @@ Gracias MERGE SORT por la ayuda.
     <property name="geometry">
      <rect>
       <x>300</x>
-      <y>250</y>
+      <y>200</y>
       <width>151</width>
       <height>51</height>
      </rect>
@@ -1019,7 +1015,7 @@ Gracias MERGE SORT por la ayuda.
     <property name="geometry">
      <rect>
       <x>300</x>
-      <y>350</y>
+      <y>300</y>
       <width>151</width>
       <height>51</height>
      </rect>
@@ -1035,6 +1031,26 @@ Gracias MERGE SORT por la ayuda.
     </property>
     <property name="text">
      <string>3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>20</y>
+      <width>311</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>32</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>MERGE SORT</string>
     </property>
    </widget>
   </widget>

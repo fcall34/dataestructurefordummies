@@ -23,16 +23,17 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>10</y>
-      <width>241</width>
+      <x>240</x>
+      <y>20</y>
+      <width>281</width>
       <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Caprasimo</family>
       <pointsize>32</pointsize>
-      <bold>true</bold>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
@@ -52,7 +53,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/sillon.png</pixmap>
+     <pixmap>Sources/Images/sillon.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -77,16 +78,17 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>100</x>
+      <x>80</x>
       <y>70</y>
-      <width>551</width>
+      <width>601</width>
       <height>151</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Caprasimo</family>
       <pointsize>12</pointsize>
-      <bold>true</bold>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
@@ -113,7 +115,7 @@ PERO OJO, debes poner el mas grande hasta arriba de todos los juguetes</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/camion.png</pixmap>
+     <pixmap>Sources/Images/camion.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -132,7 +134,7 @@ PERO OJO, debes poner el mas grande hasta arriba de todos los juguetes</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/carro.png</pixmap>
+     <pixmap>Sources/Images/carro.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -151,7 +153,7 @@ PERO OJO, debes poner el mas grande hasta arriba de todos los juguetes</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/heli.png</pixmap>
+     <pixmap>Sources/Images/heli.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -170,7 +172,7 @@ PERO OJO, debes poner el mas grande hasta arriba de todos los juguetes</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/muñeca.png</pixmap>
+     <pixmap>Sources/Images/muñeca.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -189,7 +191,7 @@ PERO OJO, debes poner el mas grande hasta arriba de todos los juguetes</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/robot.png</pixmap>
+     <pixmap>Sources/Images/robot.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -206,8 +208,9 @@ PERO OJO, debes poner el mas grande hasta arriba de todos los juguetes</string>
     </property>
     <property name="font">
      <font>
+      <family>Caprasimo</family>
       <pointsize>28</pointsize>
-      <bold>true</bold>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
@@ -235,38 +238,20 @@ PERO OJO, debes poner el mas grande hasta arriba de todos los juguetes</string>
      <string>SIGUIENTE</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_10">
-    <property name="geometry">
-     <rect>
-      <x>260</x>
-      <y>10</y>
-      <width>241</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>32</pointsize>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>HEAP SORT</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_11">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>60</x>
       <y>60</y>
-      <width>601</width>
+      <width>641</width>
       <height>151</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Caprasimo</family>
       <pointsize>12</pointsize>
-      <bold>true</bold>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
@@ -290,7 +275,7 @@ el juguete de hasta arriba para ponerlo en el lugar donde lo vamos a guardar.</s
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/sillon.png</pixmap>
+     <pixmap>Sources/Images/sillon.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -309,7 +294,7 @@ el juguete de hasta arriba para ponerlo en el lugar donde lo vamos a guardar.</s
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/heli.png</pixmap>
+     <pixmap>Sources/Images/heli.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -328,7 +313,7 @@ el juguete de hasta arriba para ponerlo en el lugar donde lo vamos a guardar.</s
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/carro.png</pixmap>
+     <pixmap>Sources/Images/carro.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -347,7 +332,7 @@ el juguete de hasta arriba para ponerlo en el lugar donde lo vamos a guardar.</s
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/camion.png</pixmap>
+     <pixmap>Sources/Images/camion.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -366,7 +351,7 @@ el juguete de hasta arriba para ponerlo en el lugar donde lo vamos a guardar.</s
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/robot.png</pixmap>
+     <pixmap>Sources/Images/robot.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -385,7 +370,7 @@ el juguete de hasta arriba para ponerlo en el lugar donde lo vamos a guardar.</s
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/muñeca.png</pixmap>
+     <pixmap>Sources/Images/muñeca.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -426,7 +411,7 @@ el juguete de hasta arriba para ponerlo en el lugar donde lo vamos a guardar.</s
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/robot.png</pixmap>
+     <pixmap>Sources/Images/robot.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -445,14 +430,33 @@ el juguete de hasta arriba para ponerlo en el lugar donde lo vamos a guardar.</s
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/mueble.png</pixmap>
+     <pixmap>Sources/Images/mueble.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
     </property>
    </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>20</y>
+      <width>281</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>32</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>HEAP SORT</string>
+    </property>
+   </widget>
    <zorder>btnNext_2</zorder>
-   <zorder>label_10</zorder>
    <zorder>label_11</zorder>
    <zorder>label_12</zorder>
    <zorder>label_13</zorder>
@@ -463,6 +467,7 @@ el juguete de hasta arriba para ponerlo en el lugar donde lo vamos a guardar.</s
    <zorder>label_18</zorder>
    <zorder>label_20</zorder>
    <zorder>label_19</zorder>
+   <zorder>label_10</zorder>
   </widget>
   <widget class="QWidget" name="page_3">
    <widget class="QPushButton" name="btnNext_3">
@@ -481,38 +486,20 @@ el juguete de hasta arriba para ponerlo en el lugar donde lo vamos a guardar.</s
      <string>SIGUIENTE</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_21">
-    <property name="geometry">
-     <rect>
-      <x>260</x>
-      <y>10</y>
-      <width>241</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>32</pointsize>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>HEAP SORT</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_22">
     <property name="geometry">
      <rect>
       <x>70</x>
       <y>60</y>
-      <width>601</width>
+      <width>611</width>
       <height>151</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Caprasimo</family>
       <pointsize>12</pointsize>
-      <bold>true</bold>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
@@ -538,7 +525,7 @@ sillón para ponerlo en el mueble</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/heli.png</pixmap>
+     <pixmap>Sources/Images/heli.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -557,7 +544,7 @@ sillón para ponerlo en el mueble</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/camion.png</pixmap>
+     <pixmap>Sources/Images/camion.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -574,8 +561,9 @@ sillón para ponerlo en el mueble</string>
     </property>
     <property name="font">
      <font>
+      <family>Caprasimo</family>
       <pointsize>28</pointsize>
-      <bold>true</bold>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
@@ -598,7 +586,7 @@ sillón para ponerlo en el mueble</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/sillon.png</pixmap>
+     <pixmap>Sources/Images/sillon.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -617,7 +605,7 @@ sillón para ponerlo en el mueble</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/muñeca.png</pixmap>
+     <pixmap>Sources/Images/muñeca.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -636,7 +624,7 @@ sillón para ponerlo en el mueble</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/carro.png</pixmap>
+     <pixmap>Sources/Images/carro.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -655,7 +643,7 @@ sillón para ponerlo en el mueble</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/camion.png</pixmap>
+     <pixmap>Sources/Images/camion.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -674,7 +662,7 @@ sillón para ponerlo en el mueble</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/heli.png</pixmap>
+     <pixmap>Sources/Images/heli.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -693,7 +681,7 @@ sillón para ponerlo en el mueble</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/robot.png</pixmap>
+     <pixmap>Sources/Images/robot.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -712,7 +700,7 @@ sillón para ponerlo en el mueble</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/mueble.png</pixmap>
+     <pixmap>Sources/Images/mueble.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -731,14 +719,33 @@ sillón para ponerlo en el mueble</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/muñeca.png</pixmap>
+     <pixmap>Sources/Images/muñeca.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
     </property>
    </widget>
+   <widget class="QLabel" name="label_21">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>20</y>
+      <width>281</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>32</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>HEAP SORT</string>
+    </property>
+   </widget>
    <zorder>btnNext_3</zorder>
-   <zorder>label_21</zorder>
    <zorder>label_22</zorder>
    <zorder>label_23</zorder>
    <zorder>label_24</zorder>
@@ -751,27 +758,9 @@ sillón para ponerlo en el mueble</string>
    <zorder>label_32</zorder>
    <zorder>label_27</zorder>
    <zorder>label_33</zorder>
+   <zorder>label_21</zorder>
   </widget>
   <widget class="QWidget" name="page_4">
-   <widget class="QLabel" name="label_34">
-    <property name="geometry">
-     <rect>
-      <x>260</x>
-      <y>10</y>
-      <width>241</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>32</pointsize>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>HEAP SORT</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_35">
     <property name="geometry">
      <rect>
@@ -785,7 +774,7 @@ sillón para ponerlo en el mueble</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/sillon.png</pixmap>
+     <pixmap>Sources/Images/sillon.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -804,7 +793,7 @@ sillón para ponerlo en el mueble</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/mueble.png</pixmap>
+     <pixmap>Sources/Images/mueble.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -837,8 +826,9 @@ sillón para ponerlo en el mueble</string>
     </property>
     <property name="font">
      <font>
+      <family>Caprasimo</family>
       <pointsize>12</pointsize>
-      <bold>true</bold>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
@@ -863,7 +853,7 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/robot.png</pixmap>
+     <pixmap>Sources/Images/robot.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -882,7 +872,7 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/muñeca.png</pixmap>
+     <pixmap>Sources/Images/muñeca.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -901,7 +891,7 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/heli.png</pixmap>
+     <pixmap>Sources/Images/heli.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -920,7 +910,7 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/camion.png</pixmap>
+     <pixmap>Sources/Images/camion.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -939,7 +929,7 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/carro.png</pixmap>
+     <pixmap>Sources/Images/carro.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -956,8 +946,9 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
     </property>
     <property name="font">
      <font>
+      <family>Caprasimo</family>
       <pointsize>28</pointsize>
-      <bold>true</bold>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
@@ -980,10 +971,30 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/heli.png</pixmap>
+     <pixmap>Sources/Images/heli.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_34">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>20</y>
+      <width>281</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>32</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>HEAP SORT</string>
     </property>
    </widget>
   </widget>
@@ -1001,7 +1012,7 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/muñeca.png</pixmap>
+     <pixmap>Sources/Images/muñeca.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1020,7 +1031,7 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/heli.png</pixmap>
+     <pixmap>Sources/Images/heli.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1039,7 +1050,7 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/sillon.png</pixmap>
+     <pixmap>Sources/Images/sillon.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1058,7 +1069,7 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/robot.png</pixmap>
+     <pixmap>Sources/Images/robot.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1080,25 +1091,6 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
      <string>SIGUIENTE</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_49">
-    <property name="geometry">
-     <rect>
-      <x>260</x>
-      <y>10</y>
-      <width>241</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>32</pointsize>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>HEAP SORT</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_50">
     <property name="geometry">
      <rect>
@@ -1112,7 +1104,7 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/mueble.png</pixmap>
+     <pixmap>Sources/Images/mueble.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1131,7 +1123,7 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/carro.png</pixmap>
+     <pixmap>Sources/Images/carro.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1150,7 +1142,7 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/camion.png</pixmap>
+     <pixmap>Sources/Images/camion.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1167,8 +1159,9 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
     </property>
     <property name="font">
      <font>
+      <family>Caprasimo</family>
       <pointsize>28</pointsize>
-      <bold>true</bold>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
@@ -1189,8 +1182,9 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
     </property>
     <property name="font">
      <font>
+      <family>Caprasimo</family>
       <pointsize>12</pointsize>
-      <bold>true</bold>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
@@ -1215,15 +1209,34 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/carro.png</pixmap>
+     <pixmap>Sources/Images/carro.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
     </property>
    </widget>
+   <widget class="QLabel" name="label_49">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>20</y>
+      <width>281</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>32</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>HEAP SORT</string>
+    </property>
+   </widget>
    <zorder>label_47</zorder>
    <zorder>btnNext_5</zorder>
-   <zorder>label_49</zorder>
    <zorder>label_50</zorder>
    <zorder>label_46</zorder>
    <zorder>label_45</zorder>
@@ -1233,6 +1246,7 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
    <zorder>label_53</zorder>
    <zorder>label_54</zorder>
    <zorder>label_55</zorder>
+   <zorder>label_49</zorder>
   </widget>
   <widget class="QWidget" name="page_6">
    <widget class="QPushButton" name="btnTermiando">
@@ -1262,8 +1276,9 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
     </property>
     <property name="font">
      <font>
+      <family>Caprasimo</family>
       <pointsize>28</pointsize>
-      <bold>true</bold>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
@@ -1284,8 +1299,9 @@ Debemos sacar el mas grande del sillón para ponerlo en el mueble.</string>
     </property>
     <property name="font">
      <font>
+      <family>Caprasimo</family>
       <pointsize>12</pointsize>
-      <bold>true</bold>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
@@ -1312,7 +1328,7 @@ Habremos acabado de ordenar con nuestro amigo HEAP SORT.
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/sillon.png</pixmap>
+     <pixmap>Sources/Images/sillon.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1331,29 +1347,10 @@ Habremos acabado de ordenar con nuestro amigo HEAP SORT.
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/mueble.png</pixmap>
+     <pixmap>Sources/Images/mueble.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_60">
-    <property name="geometry">
-     <rect>
-      <x>260</x>
-      <y>10</y>
-      <width>241</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>32</pointsize>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>HEAP SORT</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_61">
@@ -1369,7 +1366,7 @@ Habremos acabado de ordenar con nuestro amigo HEAP SORT.
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/heli.png</pixmap>
+     <pixmap>Sources/Images/heli.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1388,7 +1385,7 @@ Habremos acabado de ordenar con nuestro amigo HEAP SORT.
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/carro.png</pixmap>
+     <pixmap>Sources/Images/carro.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1407,7 +1404,7 @@ Habremos acabado de ordenar con nuestro amigo HEAP SORT.
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/muñeca.png</pixmap>
+     <pixmap>Sources/Images/muñeca.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1426,7 +1423,7 @@ Habremos acabado de ordenar con nuestro amigo HEAP SORT.
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/robot.png</pixmap>
+     <pixmap>Sources/Images/robot.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1445,10 +1442,30 @@ Habremos acabado de ordenar con nuestro amigo HEAP SORT.
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/camion.png</pixmap>
+     <pixmap>Sources/Images/camion.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_60">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>20</y>
+      <width>281</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>32</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>HEAP SORT</string>
     </property>
    </widget>
   </widget>

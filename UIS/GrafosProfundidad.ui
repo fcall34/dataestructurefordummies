@@ -68,7 +68,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/motaniarusa.jpg</pixmap>
+     <pixmap>Sources/Images/motaniarusa.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -87,7 +87,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/tesoro.jpg</pixmap>
+     <pixmap>Sources/Images/tesoro.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -106,7 +106,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/trenecito.jpg</pixmap>
+     <pixmap>Sources/Images/trenecito.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -125,7 +125,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/entrada.jpg</pixmap>
+     <pixmap>Sources/Images/entrada.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -144,7 +144,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/chocones.jpg</pixmap>
+     <pixmap>Sources/Images/chocones.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -163,7 +163,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/ruleta.webp</pixmap>
+     <pixmap>Sources/Images/ruleta.webp</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -216,7 +216,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/tesoro.jpg</pixmap>
+     <pixmap>Sources/Images/tesoro.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -235,7 +235,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/chocones.jpg</pixmap>
+     <pixmap>Sources/Images/chocones.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -305,7 +305,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/motaniarusa.jpg</pixmap>
+     <pixmap>Sources/Images/motaniarusa.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -324,7 +324,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/ruleta.webp</pixmap>
+     <pixmap>Sources/Images/ruleta.webp</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -343,7 +343,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/entrada.jpg</pixmap>
+     <pixmap>Sources/Images/entrada.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -362,7 +362,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/trenecito.jpg</pixmap>
+     <pixmap>Sources/Images/trenecito.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -431,7 +431,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/entrada.jpg</pixmap>
+     <pixmap>Sources/Images/entrada.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -450,7 +450,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/motaniarusa.jpg</pixmap>
+     <pixmap>Sources/Images/motaniarusa.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -469,7 +469,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/trenecito.jpg</pixmap>
+     <pixmap>Sources/Images/trenecito.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -488,7 +488,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/ruleta.webp</pixmap>
+     <pixmap>Sources/Images/ruleta.webp</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -523,7 +523,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/tesoro.jpg</pixmap>
+     <pixmap>Sources/Images/tesoro.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -542,7 +542,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/chocones.jpg</pixmap>
+     <pixmap>Sources/Images/chocones.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -697,7 +697,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/chocones.jpg</pixmap>
+     <pixmap>Sources/Images/chocones.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -716,7 +716,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/motaniarusa.jpg</pixmap>
+     <pixmap>Sources/Images/motaniarusa.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -751,7 +751,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/tesoro.jpg</pixmap>
+     <pixmap>Sources/Images/tesoro.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -770,7 +770,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/ruleta.webp</pixmap>
+     <pixmap>Sources/Images/ruleta.webp</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -789,7 +789,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/trenecito.jpg</pixmap>
+     <pixmap>Sources/Images/trenecito.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -824,7 +824,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/entrada.jpg</pixmap>
+     <pixmap>Sources/Images/entrada.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -963,7 +963,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/entrada.jpg</pixmap>
+     <pixmap>Sources/Images/entrada.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -982,7 +982,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/trenecito.jpg</pixmap>
+     <pixmap>Sources/Images/trenecito.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1001,7 +1001,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/ruleta.webp</pixmap>
+     <pixmap>Sources/Images/ruleta.webp</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1020,7 +1020,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/motaniarusa.jpg</pixmap>
+     <pixmap>Sources/Images/motaniarusa.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1055,7 +1055,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/tesoro.jpg</pixmap>
+     <pixmap>Sources/Images/tesoro.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1074,7 +1074,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/chocones.jpg</pixmap>
+     <pixmap>Sources/Images/chocones.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1162,7 +1162,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/tesoro.jpg</pixmap>
+     <pixmap>Sources/Images/tesoro.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1197,7 +1197,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/trenecito.jpg</pixmap>
+     <pixmap>Sources/Images/trenecito.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1216,7 +1216,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/entrada.jpg</pixmap>
+     <pixmap>Sources/Images/entrada.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1251,7 +1251,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/ruleta.webp</pixmap>
+     <pixmap>Sources/Images/ruleta.webp</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1289,7 +1289,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/motaniarusa.jpg</pixmap>
+     <pixmap>Sources/Images/motaniarusa.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1324,7 +1324,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/chocones.jpg</pixmap>
+     <pixmap>Sources/Images/chocones.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
