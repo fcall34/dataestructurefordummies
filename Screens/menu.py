@@ -18,6 +18,7 @@ class MenuPrincipal(QMainWindow):
         self.ui.btnOrdenamiento.clicked.connect(self.abrir_Ordenamiento)
         self.ui.btnHash.clicked.connect(self.abrir_hash)
         self.ui.btnStrassen.clicked.connect(self.abrir_strassen)
+        self.ui.btnSalir.clicked.connect(self.salir)
 
     def abrir_listas(self):
         self.ListasMenu = VentanaListas()
@@ -40,3 +41,6 @@ class MenuPrincipal(QMainWindow):
 
     def abrir_strassen(self):
         print("Abrir tema de Metodo strassen")  
+
+    def salir(self):
+        self.close()

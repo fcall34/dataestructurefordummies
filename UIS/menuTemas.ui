@@ -14,21 +14,26 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(51,102,255
-)</string>
+   <string notr="true">background-color: #D8BFD8;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="btnListas">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>150</y>
-      <width>141</width>
-      <height>81</height>
+      <x>590</x>
+      <y>350</y>
+      <width>151</width>
+      <height>71</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(150,85,255)</string>
+     <string notr="true">background-color: rgb(0, 0, 0)</string>
     </property>
     <property name="text">
      <string>Listas ligadas</string>
@@ -37,14 +42,20 @@
    <widget class="QPushButton" name="btnArboles">
     <property name="geometry">
      <rect>
-      <x>330</x>
-      <y>150</y>
-      <width>141</width>
-      <height>81</height>
+      <x>400</x>
+      <y>170</y>
+      <width>161</width>
+      <height>71</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(150,85,255)</string>
+     <string notr="true">background-color: rgb(0, 0, 0)</string>
     </property>
     <property name="text">
      <string>Arboles</string>
@@ -53,14 +64,20 @@
    <widget class="QPushButton" name="btnHash">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>270</y>
-      <width>141</width>
-      <height>85</height>
+      <x>400</x>
+      <y>260</y>
+      <width>161</width>
+      <height>71</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(150,85,255)</string>
+     <string notr="true">background-color: rgb(0, 0, 0)</string>
     </property>
     <property name="text">
      <string>Tablas Hash</string>
@@ -69,14 +86,20 @@
    <widget class="QPushButton" name="btnGrafos">
     <property name="geometry">
      <rect>
-      <x>610</x>
-      <y>150</y>
-      <width>141</width>
-      <height>81</height>
+      <x>590</x>
+      <y>170</y>
+      <width>151</width>
+      <height>71</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(150,85,255)</string>
+     <string notr="true">background-color: rgb(0, 0, 0)</string>
     </property>
     <property name="text">
      <string>Grafos</string>
@@ -85,14 +108,20 @@
    <widget class="QPushButton" name="btnOrdenamiento">
     <property name="geometry">
      <rect>
-      <x>470</x>
-      <y>270</y>
-      <width>141</width>
-      <height>81</height>
+      <x>590</x>
+      <y>260</y>
+      <width>151</width>
+      <height>71</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(150,85,255)</string>
+     <string notr="true">background-color: rgb(0, 0, 0)</string>
     </property>
     <property name="text">
      <string>Ordenamiento</string>
@@ -101,19 +130,128 @@
    <widget class="QPushButton" name="btnStrassen">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>390</y>
-      <width>141</width>
-      <height>81</height>
+      <x>400</x>
+      <y>350</y>
+      <width>161</width>
+      <height>71</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(150,85,255)</string>
+     <string notr="true">background-color: rgb(0, 0, 0)</string>
     </property>
     <property name="text">
      <string>Metodo Strassen</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>20</y>
+      <width>541</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>36</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;</string>
+    </property>
+    <property name="text">
+     <string>DATA STRUCTURE 
+FOR DUMMIES</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>20</y>
+      <width>531</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>36</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;color:black</string>
+    </property>
+    <property name="text">
+     <string>DATA STRUCTURE 
+FOR DUMMIES</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>160</y>
+      <width>301</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Sources/Images/compu.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnSalir">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>460</y>
+      <width>161</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0)</string>
+    </property>
+    <property name="text">
+     <string>SALIR</string>
+    </property>
+   </widget>
+   <zorder>label_2</zorder>
+   <zorder>btnListas</zorder>
+   <zorder>btnArboles</zorder>
+   <zorder>btnHash</zorder>
+   <zorder>btnGrafos</zorder>
+   <zorder>btnOrdenamiento</zorder>
+   <zorder>btnStrassen</zorder>
+   <zorder>label</zorder>
+   <zorder>label_3</zorder>
+   <zorder>btnSalir</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
