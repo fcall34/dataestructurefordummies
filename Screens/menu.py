@@ -5,6 +5,7 @@ from PySide6.QtWidgets import QMainWindow
 from Screens.Listas.ListasMenu import VentanaListas
 from Screens.Ordenamiento.menuOrdenamiento import VentanaOrdenamiento
 from Screens.Strassen.Strassen import ventanaStrassen
+from Screens.Arboles.menuArboles import VentanaArboles
 
 class MenuPrincipal(QMainWindow):
     def __init__(self):
@@ -25,9 +26,6 @@ class MenuPrincipal(QMainWindow):
         self.ListasMenu = VentanaListas()
         self.ListasMenu.show() 
 
-    def abrir_arboles(self):
-        print("Abrir tema de Arboles") 
-
     def abrir_grafos(self):
         self.GrafosMenu = VentanaGrafos()
         self.GrafosMenu.show() 
@@ -43,6 +41,10 @@ class MenuPrincipal(QMainWindow):
     def abrir_strassen(self):
         self.Strassen = ventanaStrassen()
         self.Strassen.show()
+
+    def abrir_arboles(self):
+        self.arboles = VentanaArboles()
+        self.arboles.show()
 
     def salir(self):
         self.close()
