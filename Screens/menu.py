@@ -4,6 +4,7 @@ from Screens.HashTables.hashTables import VentanaHashTables
 from PySide6.QtWidgets import QMainWindow
 from Screens.Listas.ListasMenu import VentanaListas
 from Screens.Ordenamiento.menuOrdenamiento import VentanaOrdenamiento
+from Screens.Strassen.Strassen import ventanaStrassen
 
 class MenuPrincipal(QMainWindow):
     def __init__(self):
@@ -40,7 +41,8 @@ class MenuPrincipal(QMainWindow):
         self.hashTables.show()
 
     def abrir_strassen(self):
-        print("Abrir tema de Metodo strassen")  
+        self.Strassen = ventanaStrassen()
+        self.Strassen.show()
 
     def salir(self):
         self.close()
