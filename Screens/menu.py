@@ -5,7 +5,12 @@ from PySide6.QtWidgets import QMainWindow
 from Screens.Listas.ListasMenu import VentanaListas
 from Screens.Ordenamiento.menuOrdenamiento import VentanaOrdenamiento
 from Screens.Strassen.Strassen import ventanaStrassen
+<<<<<<< HEAD
 from UIS.ListaDobleEnlazada_ui import Ui_StackedWidget
+=======
+from Screens.Arboles.menuArboles import VentanaArboles
+
+>>>>>>> 8491f6f8f6cf09cf8da6295db92e3c7ab43b2fe9
 class MenuPrincipal(QMainWindow):
     def __init__(self):
         super().__init__()
@@ -25,9 +30,6 @@ class MenuPrincipal(QMainWindow):
         self.ListasMenu = VentanaListas()
         self.ListasMenu.show() 
 
-    def abrir_arboles(self):
-        print("Abrir tema de Arboles") 
-
     def abrir_grafos(self):
         self.GrafosMenu = VentanaGrafos()
         self.GrafosMenu.show() 
@@ -43,6 +45,10 @@ class MenuPrincipal(QMainWindow):
     def abrir_strassen(self):
         self.Strassen = ventanaStrassen()
         self.Strassen.show()
+
+    def abrir_arboles(self):
+        self.arboles = VentanaArboles()
+        self.arboles.show()
 
     def salir(self):
         self.close()
