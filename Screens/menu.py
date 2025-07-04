@@ -5,7 +5,7 @@ from PySide6.QtWidgets import QMainWindow
 from Screens.Listas.ListasMenu import VentanaListas
 from Screens.Ordenamiento.menuOrdenamiento import VentanaOrdenamiento
 from Screens.Strassen.Strassen import ventanaStrassen
-
+from UIS.ListaDobleEnlazada_ui import Ui_StackedWidget
 class MenuPrincipal(QMainWindow):
     def __init__(self):
         super().__init__()
