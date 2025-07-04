@@ -11,6 +11,7 @@ class VentanaHashTables(QStackedWidget):
         self.ui.btnNext_2.clicked.connect(self.nextPage)
         self.ui.btnNext_3.clicked.connect(self.nextPage)
         self.ui.btnNext_4.clicked.connect(self.nextPage)
+        self.ui.btnNext_5.clicked.connect(self.nextPage)
         self.ui.btnTerminar.clicked.connect(self.finish)
 
     def nextPage(self):

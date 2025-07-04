@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>764</width>
+    <width>765</width>
     <height>502</height>
    </rect>
   </property>
@@ -20,36 +20,29 @@
    <number>0</number>
   </property>
   <widget class="QWidget" name="page">
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>280</x>
-      <y>20</y>
-      <width>181</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">FONT-SIZE: 18PT; font:bold; color: balck</string>
-    </property>
-    <property name="text">
-     <string>TABLAS HASH</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>60</y>
-      <width>511</width>
-      <height>131</height>
+      <x>80</x>
+      <y>90</y>
+      <width>631</width>
+      <height>121</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">color:black; font-size: 12pt</string>
+     <string notr="true">color:white; font-size: 12pt</string>
     </property>
     <property name="text">
      <string>Imagina que tienes muchísimos datos y quieres encontrar uno específico de inmediato. Las tablas hash logran esto usando un truco inteligente: toman la clave (lo que usas para buscar, como un nombre o un ID) y, a través de una función hash, la convierten en una dirección única donde guardarán el valor asociado.</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
     <property name="wordWrap">
      <bool>true</bool>
@@ -58,18 +51,27 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>220</y>
-      <width>541</width>
+      <x>80</x>
+      <y>200</y>
+      <width>621</width>
       <height>131</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">color:black; font-size: 12pt</string>
+     <string notr="true">color:white; font-size: 12pt</string>
     </property>
     <property name="text">
      <string>Pero para facilitar el entendimiento imagina la Estantería Mágica de Juguetes!
 Imagina que tienes una estantería de juguetes súper especial y mágica. En lugar de buscar juguete por juguete hasta encontrar el que quieres, esta estantería tiene un truco</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
     <property name="wordWrap">
      <bool>true</bool>
@@ -78,7 +80,7 @@ Imagina que tienes una estantería de juguetes súper especial y mágica. En lug
    <widget class="QPushButton" name="btnNext">
     <property name="geometry">
      <rect>
-      <x>630</x>
+      <x>660</x>
       <y>450</y>
       <width>75</width>
       <height>24</height>
@@ -88,41 +90,109 @@ Imagina que tienes una estantería de juguetes súper especial y mágica. En lug
      <string notr="true">background-color: rgb(0,0,0)</string>
     </property>
     <property name="text">
-     <string>Siguiente</string>
+     <string>SIGUIENTE</string>
     </property>
    </widget>
-  </widget>
-  <widget class="QWidget" name="page_2">
-   <widget class="QLabel" name="label_4">
+   <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>0</y>
-      <width>181</width>
-      <height>41</height>
+      <x>240</x>
+      <y>20</y>
+      <width>291</width>
+      <height>51</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>28</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">FONT-SIZE: 18PT; font:bold; color: balck</string>
+     <string notr="true">background-color:transparent</string>
     </property>
     <property name="text">
      <string>TABLAS HASH</string>
     </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
    </widget>
+   <widget class="QLabel" name="label_34">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>20</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>28</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;color:black</string>
+    </property>
+    <property name="text">
+     <string>TABLAS HASH</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_51">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>330</y>
+      <width>141</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Sources/Images/hash.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>label_34</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>btnNext</zorder>
+   <zorder>label</zorder>
+   <zorder>label_51</zorder>
+  </widget>
+  <widget class="QWidget" name="page_2">
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>30</y>
-      <width>691</width>
+      <x>70</x>
+      <y>90</y>
+      <width>631</width>
       <height>81</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">color:black; font-size: 12pt</string>
+     <string notr="true">color:white; font-size: 12pt</string>
     </property>
     <property name="text">
      <string>1.- Cada juguete tiene una etiqueta mágica: Cuando quieres guardar un juguete (por ejemplo, tu coche rojo), la estantería le pone una etiqueta mágica.</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
     <property name="wordWrap">
      <bool>true</bool>
@@ -131,17 +201,26 @@ Imagina que tienes una estantería de juguetes súper especial y mágica. En lug
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>90</y>
-      <width>711</width>
+      <x>70</x>
+      <y>170</y>
+      <width>631</width>
       <height>81</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">color:black; font-size: 12pt</string>
+     <string notr="true">color:white; font-size: 12pt</string>
     </property>
     <property name="text">
      <string>2.-La etiqueta te dice dónde guardarlo: Esa etiqueta te dice exactamente en qué caja de la estantería debes poner el coche rojo. ¡Es como un número de caja secreta! Así, el coche rojo siempre va a la caja número 3.</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
     <property name="wordWrap">
      <bool>true</bool>
@@ -150,73 +229,26 @@ Imagina que tienes una estantería de juguetes súper especial y mágica. En lug
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>160</y>
-      <width>701</width>
+      <x>70</x>
+      <y>260</y>
+      <width>631</width>
       <height>81</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">color:black; font-size: 12pt</string>
+     <string notr="true">color:white; font-size: 12pt</string>
     </property>
     <property name="text">
      <string>3.-Para encontrarlo, usas la etiqueta: Si luego quieres jugar con tu coche rojo, ¡no tienes que buscar en todas las cajas! Solo miras su etiqueta mágica, que te dice &quot;caja número 3&quot;, y vas directo a esa caja para sacarlo. ¡Es súper rápido!</string>
     </property>
-    <property name="wordWrap">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_8">
-    <property name="geometry">
-     <rect>
-      <x>60</x>
-      <y>260</y>
-      <width>641</width>
-      <height>71</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color:black; font-size: 12pt</string>
-    </property>
-    <property name="text">
-     <string>Ah, esa es la parte divertida! A veces, la etiqueta mágica de tu coche rojo dice &quot;caja 3&quot;, y la etiqueta mágica de tu osito de peluche también dice &quot;caja 3&quot;. ¡Ups! Eso es un embotellamiento (una colisión). Para arreglar usamos:</string>
-    </property>
-    <property name="wordWrap">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_9">
-    <property name="geometry">
-     <rect>
-      <x>130</x>
-      <y>240</y>
-      <width>501</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color:black; font-size: 12pt; font:bold</string>
-    </property>
-    <property name="text">
-     <string>¿Y qué pasa si hay dos juguetes que quieren ir a la misma caja?</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_10">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>330</y>
-      <width>761</width>
-      <height>131</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color:black; font-size: 12pt</string>
-    </property>
-    <property name="text">
-     <string>Cajones secretos dentro de cada caja: Dentro de la caja número 3, en lugar de un solo juguete, hay como pequeños cajones secretos. Entonces, tu coche rojo va a un cajón dentro de la caja 3, y tu osito de peluche va a otro cajón dentro de la misma caja 3.
-
-Así, cuando buscas tu coche rojo, vas a la caja 3 y luego al cajón donde sabes que está tu coche. ¡Sigue siendo muy rápido porque sabes exactamente dónde buscar!</string>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
     <property name="wordWrap">
      <bool>true</bool>
@@ -235,32 +267,271 @@ Así, cuando buscas tu coche rojo, vas a la caja 3 y luego al cajón donde sabes
      <string notr="true">background-color: rgb(0,0,0)</string>
     </property>
     <property name="text">
-     <string>Siguiente</string>
+     <string>SIGUIENTE</string>
     </property>
    </widget>
-  </widget>
-  <widget class="QWidget" name="page_3">
-   <widget class="QLabel" name="label_11">
+   <widget class="QLabel" name="label_52">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>10</y>
-      <width>181</width>
-      <height>41</height>
+      <x>240</x>
+      <y>20</y>
+      <width>291</width>
+      <height>51</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>28</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">FONT-SIZE: 18PT; font:bold; color: balck</string>
+     <string notr="true">background-color:transparent</string>
     </property>
     <property name="text">
      <string>TABLAS HASH</string>
     </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
    </widget>
+   <widget class="QLabel" name="label_53">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>20</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>28</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;color:black</string>
+    </property>
+    <property name="text">
+     <string>TABLAS HASH</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>340</y>
+      <width>451</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Sources/Images/magia 2.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>label_53</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_7</zorder>
+   <zorder>btnNext_2</zorder>
+   <zorder>label_52</zorder>
+   <zorder>label_4</zorder>
+  </widget>
+  <widget class="QWidget" name="page_6">
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>220</y>
+      <width>551</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white; font-size: 12pt</string>
+    </property>
+    <property name="text">
+     <string>Cajones secretos dentro de cada caja: Dentro de la caja número 3, en lugar de un solo juguete, hay como pequeños cajones secretos. Entonces, tu coche rojo va a un cajón dentro de la caja 3, y tu osito de peluche va a otro cajón dentro de la misma caja 3.
+
+Así, cuando buscas tu coche rojo, vas a la caja 3 y luego al cajón donde sabes que está tu coche. ¡Sigue siendo muy rápido porque sabes exactamente dónde buscar!</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>90</y>
+      <width>671</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:; font-size: 12pt</string>
+    </property>
+    <property name="text">
+     <string>¿Y QUÉ PASA SI HAY DOS JUGUETES QUE QUIEREN IR A LA MISMA CAJA?</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>130</y>
+      <width>541</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white; font-size: 12pt</string>
+    </property>
+    <property name="text">
+     <string>Ah, esa es la parte divertida! A veces, la etiqueta mágica de tu coche rojo dice &quot;caja 3&quot;, y la etiqueta mágica de tu osito de peluche también dice &quot;caja 3&quot;. ¡Ups! Eso es un embotellamiento (una colisión). Para arreglar usamos:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_54">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>20</y>
+      <width>291</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>28</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent</string>
+    </property>
+    <property name="text">
+     <string>TABLAS HASH</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnNext_5">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>450</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0,0,0)</string>
+    </property>
+    <property name="text">
+     <string>SIGUIENTE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_55">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>20</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>28</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;color:black</string>
+    </property>
+    <property name="text">
+     <string>TABLAS HASH</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_56">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>390</y>
+      <width>331</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Sources/Images/mueble.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>label_55</zorder>
+   <zorder>label_10</zorder>
+   <zorder>label_9</zorder>
+   <zorder>label_8</zorder>
+   <zorder>label_54</zorder>
+   <zorder>btnNext_5</zorder>
+   <zorder>label_56</zorder>
+  </widget>
+  <widget class="QWidget" name="page_3">
    <widget class="QLabel" name="label_12">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>70</y>
+      <x>60</x>
+      <y>90</y>
       <width>241</width>
       <height>281</height>
      </rect>
@@ -374,16 +645,25 @@ Así, cuando buscas tu coche rojo, vas a la caja 3 y luego al cajón donde sabes
     <property name="geometry">
      <rect>
       <x>160</x>
-      <y>400</y>
+      <y>390</y>
       <width>471</width>
-      <height>41</height>
+      <height>71</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">color: black; font-size:12pt</string>
+     <string notr="true">color: WHITE; font-size:12pt</string>
     </property>
     <property name="text">
      <string>Entonces, queremos acomodar nuestros juguetes en la caja correcta, para eso usaremos nuestra estanteria magica!!</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
     <property name="wordWrap">
      <bool>true</bool>
@@ -393,7 +673,7 @@ Así, cuando buscas tu coche rojo, vas a la caja 3 y luego al cajón donde sabes
     <property name="geometry">
      <rect>
       <x>660</x>
-      <y>460</y>
+      <y>450</y>
       <width>75</width>
       <height>24</height>
      </rect>
@@ -402,7 +682,57 @@ Así, cuando buscas tu coche rojo, vas a la caja 3 y luego al cajón donde sabes
      <string notr="true">background-color: rgb(0,0,0)</string>
     </property>
     <property name="text">
-     <string>Siguiente</string>
+     <string>SIGUIENTE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_57">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>20</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>28</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;color:black</string>
+    </property>
+    <property name="text">
+     <string>TABLAS HASH</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_58">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>20</y>
+      <width>291</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>28</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent</string>
+    </property>
+    <property name="text">
+     <string>TABLAS HASH</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
   </widget>
@@ -411,35 +741,28 @@ Así, cuando buscas tu coche rojo, vas a la caja 3 y luego al cajón donde sabes
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>70</y>
-      <width>471</width>
+      <y>80</y>
+      <width>431</width>
       <height>41</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">color: black; font-size:12pt</string>
+     <string notr="true">color: WHITE; font-size:12pt</string>
     </property>
     <property name="text">
      <string>Primero, si metemos nuestro carrito a la estanteria magica nos deberia de mostrar una etiqueta asi:</string>
     </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
     <property name="wordWrap">
      <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_23">
-    <property name="geometry">
-     <rect>
-      <x>270</x>
-      <y>20</y>
-      <width>181</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">FONT-SIZE: 18PT; font:bold; color: balck</string>
-    </property>
-    <property name="text">
-     <string>TABLAS HASH</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_26">
@@ -508,11 +831,19 @@ Así, cuando buscas tu coche rojo, vas a la caja 3 y luego al cajón donde sabes
       <height>91</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">font-size:12pt; color:black; font:bold</string>
+     <string notr="true">font-size:12pt; color:white; font:bold</string>
     </property>
     <property name="text">
-     <string>color: rojo, tipo: carro. caja:1</string>
+     <string>Color: rojo. Tipo: carro. Caja: 1.</string>
     </property>
     <property name="wordWrap">
      <bool>true</bool>
@@ -546,11 +877,19 @@ Así, cuando buscas tu coche rojo, vas a la caja 3 y luego al cajón donde sabes
       <height>91</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">font-size:12pt; color:black; font:bold</string>
+     <string notr="true">font-size:12pt; color:white; font:bold</string>
     </property>
     <property name="text">
-     <string>color: gris, tipo: robot. caja:4</string>
+     <string>Color: gris. Tipo: robot. Caja: 4.</string>
     </property>
     <property name="wordWrap">
      <bool>true</bool>
@@ -559,17 +898,28 @@ Así, cuando buscas tu coche rojo, vas a la caja 3 y luego al cajón donde sabes
    <widget class="QLabel" name="label_27">
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>60</y>
+      <x>560</x>
+      <y>70</y>
       <width>171</width>
       <height>41</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">color: black; font-size:12pt; font: bold</string>
+     <string notr="true">font-size:12pt; color:white; font:bold</string>
     </property>
     <property name="text">
      <string>Etiquetas para los demas juguetes</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
     <property name="wordWrap">
      <bool>true</bool>
@@ -637,15 +987,23 @@ Así, cuando buscas tu coche rojo, vas a la caja 3 y luego al cajón donde sabes
      <rect>
       <x>590</x>
       <y>140</y>
-      <width>101</width>
+      <width>121</width>
       <height>91</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">font-size:12pt; color:black; font:bold</string>
+     <string notr="true">font-size:12pt; color:white; font:bold</string>
     </property>
     <property name="text">
-     <string>color: azul, tipo: munieco. caja:2</string>
+     <string>Color: azul. Tipo: muñeco. Caja: 2.</string>
     </property>
     <property name="wordWrap">
      <bool>true</bool>
@@ -656,15 +1014,23 @@ Así, cuando buscas tu coche rojo, vas a la caja 3 y luego al cajón donde sabes
      <rect>
       <x>590</x>
       <y>240</y>
-      <width>101</width>
+      <width>121</width>
       <height>91</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">font-size:12pt; color:black; font:bold</string>
+     <string notr="true">font-size:12pt; color:white; font:bold</string>
     </property>
     <property name="text">
-     <string>color: cafe, tipo: munieco. caja:2</string>
+     <string>Color: cafe Tipo: muñeco. Caja: 2</string>
     </property>
     <property name="wordWrap">
      <bool>true</bool>
@@ -675,15 +1041,23 @@ Así, cuando buscas tu coche rojo, vas a la caja 3 y luego al cajón donde sabes
      <rect>
       <x>590</x>
       <y>360</y>
-      <width>101</width>
+      <width>131</width>
       <height>91</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">font-size:12pt; color:black; font:bold</string>
+     <string notr="true">font-size:12pt; color:white; font:bold</string>
     </property>
     <property name="text">
-     <string>color: azul rey tipo: consola. caja:3</string>
+     <string>Color: azul rey. Tipo: consola. Caja: 3.</string>
     </property>
     <property name="wordWrap">
      <bool>true</bool>
@@ -692,7 +1066,7 @@ Así, cuando buscas tu coche rojo, vas a la caja 3 y luego al cajón donde sabes
    <widget class="QPushButton" name="btnNext_4">
     <property name="geometry">
      <rect>
-      <x>670</x>
+      <x>660</x>
       <y>450</y>
       <width>75</width>
       <height>24</height>
@@ -702,25 +1076,101 @@ Así, cuando buscas tu coche rojo, vas a la caja 3 y luego al cajón donde sabes
      <string notr="true">background-color: rgb(0,0,0)</string>
     </property>
     <property name="text">
-     <string>Siguiente</string>
+     <string>SIGUIENTE</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_59">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>20</y>
+      <width>291</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>28</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent</string>
+    </property>
+    <property name="text">
+     <string>TABLAS HASH</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_60">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>20</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>28</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;color:black</string>
+    </property>
+    <property name="text">
+     <string>TABLAS HASH</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <zorder>label_60</zorder>
+   <zorder>label_21</zorder>
+   <zorder>label_26</zorder>
+   <zorder>label_19</zorder>
+   <zorder>label_20</zorder>
+   <zorder>label_22</zorder>
+   <zorder>label_24</zorder>
+   <zorder>label_25</zorder>
+   <zorder>label_27</zorder>
+   <zorder>label_28</zorder>
+   <zorder>label_29</zorder>
+   <zorder>label_30</zorder>
+   <zorder>label_31</zorder>
+   <zorder>label_32</zorder>
+   <zorder>label_33</zorder>
+   <zorder>btnNext_4</zorder>
+   <zorder>label_59</zorder>
   </widget>
   <widget class="QWidget" name="page_5">
    <widget class="QLabel" name="label_37">
     <property name="geometry">
      <rect>
-      <x>50</x>
+      <x>150</x>
       <y>70</y>
       <width>471</width>
-      <height>41</height>
+      <height>51</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">color: black; font-size:12pt</string>
+     <string notr="true">color: white; font-size:12pt</string>
     </property>
     <property name="text">
      <string>Como tenemos que guardar al max steel y al oso en la misma caja crearemos una especie de subcaja para guardarlos</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
     <property name="wordWrap">
      <bool>true</bool>
@@ -735,11 +1185,22 @@ Así, cuando buscas tu coche rojo, vas a la caja 3 y luego al cajón donde sabes
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">font-size:12pt; color:black; font:bold</string>
+     <string notr="true">font-size:12pt; color:white; font:bold</string>
     </property>
     <property name="text">
      <string>Caja 3</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
     <property name="wordWrap">
      <bool>true</bool>
@@ -792,30 +1253,25 @@ Así, cuando buscas tu coche rojo, vas a la caja 3 y luego al cajón donde sabes
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">font-size:12pt; color:black; font:bold</string>
+     <string notr="true">font-size:12pt; color:white; font:bold</string>
     </property>
     <property name="text">
      <string>Caja 4</string>
     </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
     <property name="wordWrap">
      <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_42">
-    <property name="geometry">
-     <rect>
-      <x>290</x>
-      <y>20</y>
-      <width>181</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">FONT-SIZE: 18PT; font:bold; color: balck</string>
-    </property>
-    <property name="text">
-     <string>TABLAS HASH</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_44">
@@ -827,11 +1283,22 @@ Así, cuando buscas tu coche rojo, vas a la caja 3 y luego al cajón donde sabes
       <height>41</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">font-size:12pt; color:black; font:bold</string>
+     <string notr="true">font-size:12pt; color:white; font:bold</string>
     </property>
     <property name="text">
      <string>Caja 2</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
     <property name="wordWrap">
      <bool>true</bool>
@@ -846,11 +1313,22 @@ Así, cuando buscas tu coche rojo, vas a la caja 3 y luego al cajón donde sabes
       <height>21</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">font-size:12pt; color:black; font:bold</string>
+     <string notr="true">font-size:12pt; color:white; font:bold</string>
     </property>
     <property name="text">
      <string>Caja 1</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
     <property name="wordWrap">
      <bool>true</bool>
@@ -992,17 +1470,26 @@ Así, cuando buscas tu coche rojo, vas a la caja 3 y luego al cajón donde sabes
    <widget class="QLabel" name="label_50">
     <property name="geometry">
      <rect>
-      <x>40</x>
+      <x>150</x>
       <y>120</y>
-      <width>601</width>
-      <height>61</height>
+      <width>471</width>
+      <height>81</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">color: black; font-size:12pt</string>
+     <string notr="true">color: white; font-size:12pt</string>
     </property>
     <property name="text">
      <string>De esta Manera cada vez que queramos guardar un nuevo juguete, con nuestra estanteria sabremos donde guardarlo y cuando queramos buscar uno en especial, sabremos donde esta</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
     <property name="wordWrap">
      <bool>true</bool>
@@ -1011,19 +1498,93 @@ Así, cuando buscas tu coche rojo, vas a la caja 3 y luego al cajón donde sabes
    <widget class="QPushButton" name="btnTerminar">
     <property name="geometry">
      <rect>
-      <x>660</x>
-      <y>440</y>
-      <width>75</width>
-      <height>24</height>
+      <x>300</x>
+      <y>420</y>
+      <width>161</width>
+      <height>61</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(0,0,0)</string>
     </property>
     <property name="text">
-     <string>Terminar</string>
+     <string>TERMINADO</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_61">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>20</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>28</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;color:black</string>
+    </property>
+    <property name="text">
+     <string>TABLAS HASH</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_62">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>20</y>
+      <width>291</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>28</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent</string>
+    </property>
+    <property name="text">
+     <string>TABLAS HASH</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <zorder>label_37</zorder>
+   <zorder>label_38</zorder>
+   <zorder>label_39</zorder>
+   <zorder>label_41</zorder>
+   <zorder>label_44</zorder>
+   <zorder>label_47</zorder>
+   <zorder>label_48</zorder>
+   <zorder>label_45</zorder>
+   <zorder>label_46</zorder>
+   <zorder>label_36</zorder>
+   <zorder>label_43</zorder>
+   <zorder>label_35</zorder>
+   <zorder>label_49</zorder>
+   <zorder>label_50</zorder>
+   <zorder>btnTerminar</zorder>
+   <zorder>label_61</zorder>
+   <zorder>label_62</zorder>
+   <zorder>label_40</zorder>
   </widget>
  </widget>
  <resources/>
