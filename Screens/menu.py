@@ -2,15 +2,11 @@ from UIS.menuTemas_ui import Ui_MenuTemas
 from Screens.Grafos.MenuGrafos import VentanaGrafos
 from Screens.HashTables.hashTables import VentanaHashTables
 from PySide6.QtWidgets import QMainWindow
+
 from Screens.Listas.ListasMenu import VentanaListas
 from Screens.Ordenamiento.menuOrdenamiento import VentanaOrdenamiento
 from Screens.Strassen.Strassen import ventanaStrassen
-<<<<<<< HEAD
-from UIS.ListaDobleEnlazada_ui import Ui_StackedWidget
-=======
 from Screens.Arboles.menuArboles import VentanaArboles
-
->>>>>>> 8491f6f8f6cf09cf8da6295db92e3c7ab43b2fe9
 class MenuPrincipal(QMainWindow):
     def __init__(self):
         super().__init__()

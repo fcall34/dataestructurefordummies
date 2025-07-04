@@ -6,44 +6,55 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>417</width>
-    <height>486</height>
+    <width>761</width>
+    <height>521</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>StackedWidget</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(165, 58, 124)</string>
+  </property>
   <widget class="QWidget" name="page">
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>0</y>
-      <width>291</width>
+      <x>90</x>
+      <y>30</y>
+      <width>611</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>18</pointsize>
-      <bold>true</bold>
+      <family>Caprasimo</family>
+      <pointsize>32</pointsize>
+      <bold>false</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent</string>
     </property>
     <property name="text">
      <string>LISTA SIMPLE ENLAZADA</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>40</y>
-      <width>411</width>
+      <x>130</x>
+      <y>80</y>
+      <width>511</width>
       <height>91</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Caprasimo</family>
       <pointsize>12</pointsize>
       <italic>false</italic>
      </font>
@@ -60,6 +71,9 @@
     <property name="text">
      <string>Imagina que tenemos un grupo de niños jugando a pasarse un papelito. Cada niño sostiene un papel con su nombre y con la otra mano señala al siguiente niño que sigue en la fila.</string>
     </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
     <property name="wordWrap">
      <bool>true</bool>
     </property>
@@ -67,14 +81,20 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>160</y>
-      <width>411</width>
-      <height>141</height>
+      <x>110</x>
+      <y>180</y>
+      <width>581</width>
+      <height>181</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
     <property name="autoFillBackground">
-     <bool>true</bool>
+     <bool>false</bool>
     </property>
     <property name="text">
      <string>Cada niño representa un nodo.
@@ -87,6 +107,9 @@ El último niño no señala a nadie (porque no hay nadie después de él), así 
 
 </string>
     </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
     <property name="wordWrap">
      <bool>true</bool>
     </property>
@@ -94,8 +117,8 @@ El último niño no señala a nadie (porque no hay nadie después de él), así 
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>350</y>
+      <x>190</x>
+      <y>340</y>
       <width>421</width>
       <height>141</height>
      </rect>
@@ -104,12 +127,60 @@ El último niño no señala a nadie (porque no hay nadie después de él), así 
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/ListaSimpleEnlazada.jpeg</pixmap>
+     <pixmap>Sources/Images/ListaSimpleEnlazada.jpeg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
     </property>
    </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>30</y>
+      <width>601</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>32</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;color:black</string>
+    </property>
+    <property name="text">
+     <string>LISTA SIMPLE ENLAZADA</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnSalir">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>470</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(96, 5, 99)</string>
+    </property>
+    <property name="text">
+     <string>SALIR</string>
+    </property>
+   </widget>
+   <zorder>label_5</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>btnSalir</zorder>
   </widget>
  </widget>
  <resources/>

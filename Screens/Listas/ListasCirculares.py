@@ -1,14 +1,15 @@
-from UIS.ListaDobleEnlazada_ui import Ui_StackedWidget
+from UIS.ListasCirculares_ui import Ui_StackedWidget
 from PySide6.QtWidgets import QStackedWidget
 
-class VentanaListasDobles(QStackedWidget):
+class VentanaCirculares(QStackedWidget):
     def __init__(self):
         super().__init__()
         self.ui=Ui_StackedWidget()
         self.ui.setupUi(self)
 
-        self.ui.pushButton.clicked.connect(self.finish)
-    
+        self.ui.btnNext.clicked.connect(self.nextPage)
+        self.ui.btnEnd.clicked.connect(self.finish)
+
     def nextPage(self):
         current_page = self.currentIndex()
         total_pages = self.count()

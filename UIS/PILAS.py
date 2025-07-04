@@ -53,7 +53,7 @@ class Ui_StackedWidget(object):
         self.label_3 = QLabel(self.page)
         self.label_3.setObjectName(u"label_3")
         self.label_3.setGeometry(QRect(0, 130, 241, 291))
-        self.label_3.setPixmap(QPixmap(u"../Sources/Images/APILAR.png"))
+        self.label_3.setPixmap(QPixmap(u"Sources/Images/APILAR.png"))
         self.label_3.setScaledContents(True)
         self.label_4 = QLabel(self.page)
         self.label_4.setObjectName(u"label_4")

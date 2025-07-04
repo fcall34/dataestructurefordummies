@@ -6,12 +6,24 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>816</width>
-    <height>751</height>
+    <width>761</width>
+    <height>521</height>
    </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Caprasimo</family>
+    <pointsize>32</pointsize>
+   </font>
   </property>
   <property name="windowTitle">
    <string>StackedWidget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(85, 0, 255);</string>
+  </property>
+  <property name="currentIndex">
+   <number>0</number>
   </property>
   <widget class="QWidget" name="page">
    <property name="styleSheet">
@@ -20,34 +32,42 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>0</y>
-      <width>201</width>
-      <height>31</height>
+      <x>200</x>
+      <y>20</y>
+      <width>391</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>20</pointsize>
-      <bold>true</bold>
+      <family>Caprasimo</family>
+      <pointsize>32</pointsize>
+      <bold>false</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;</string>
     </property>
     <property name="text">
      <string>Listas Circulares</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>40</y>
-      <width>801</width>
-      <height>321</height>
+      <x>110</x>
+      <y>90</y>
+      <width>571</width>
+      <height>221</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
       <italic>false</italic>
      </font>
     </property>
@@ -57,19 +77,133 @@
 En las sillas musicales normales, las sillas están en una fila y cuando termina la música, alguien se queda sin silla.
 
 Pero en nuestra versión circular, las sillas están pegadas formando un círculo, así que después de la última silla, ¡volvemos a la primera!
-
-No hay &quot;principio&quot; ni &quot;final&quot;:
+</string>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>20</y>
+      <width>401</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>32</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;color:black</string>
+    </property>
+    <property name="text">
+     <string>Listas Circulares</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnNext">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>480</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(50, 7, 100)</string>
+    </property>
+    <property name="text">
+     <string>SIGUIENTE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>300</y>
+      <width>171</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Sources/Images/silla.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>label_5</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>btnNext</zorder>
+   <zorder>label_7</zorder>
+  </widget>
+  <widget class="QWidget" name="page_2">
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>320</y>
+      <width>201</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Sources/Images/Sillas Circulares.jpeg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>80</y>
+      <width>651</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>No hay &quot;principio&quot; ni &quot;final&quot;:
 En una fila normal, hay una primera silla y una última.
-
 En el círculo, no hay último, porque después de la última... ¡vuelves al principio!
-
 ¿Cómo recorremos las sillas?
 Si empiezas en una silla y vas pasando, nunca terminas, porque siempre hay una siguiente.
-
 Es como un bucle infinito (pero controlado, porque sabemos cuántas sillas hay).</string>
     </property>
     <property name="scaledContents">
      <bool>false</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
     <property name="wordWrap">
      <bool>true</bool>
@@ -78,14 +212,15 @@ Es como un bucle infinito (pero controlado, porque sabemos cuántas sillas hay).
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>470</y>
+      <x>170</x>
+      <y>230</y>
       <width>441</width>
       <height>71</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Caprasimo</family>
       <pointsize>11</pointsize>
       <italic>false</italic>
      </font>
@@ -98,30 +233,82 @@ Si estás en la Silla 4, la siguiente es la Silla 5, luego la Silla 1, luego la 
     <property name="scaledContents">
      <bool>false</bool>
     </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
     <property name="wordWrap">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
     <property name="openExternalLinks">
      <bool>false</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="label_3">
+   <widget class="QLabel" name="label_8">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>400</y>
-      <width>251</width>
-      <height>261</height>
+      <x>200</x>
+      <y>20</y>
+      <width>401</width>
+      <height>41</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>32</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;color:black</string>
+    </property>
     <property name="text">
-     <string/>
+     <string>Listas Circulares</string>
     </property>
-    <property name="pixmap">
-     <pixmap>../Sources/Images/Sillas Circulares.jpeg</pixmap>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
-    <property name="scaledContents">
-     <bool>true</bool>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>20</y>
+      <width>391</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>32</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;</string>
+    </property>
+    <property name="text">
+     <string>Listas Circulares</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnEnd">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>480</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(50, 7, 100)</string>
+    </property>
+    <property name="text">
+     <string>TERMINAR</string>
     </property>
    </widget>
   </widget>

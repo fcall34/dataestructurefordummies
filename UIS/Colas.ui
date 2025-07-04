@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>654</width>
-    <height>639</height>
+    <width>761</width>
+    <height>521</height>
    </rect>
   </property>
   <property name="font">
@@ -23,41 +23,60 @@
    <string>StackedWidget</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(85, 85, 255);</string>
+   <string notr="true">background-color: rgb(59, 7, 112)</string>
+  </property>
+  <property name="currentIndex">
+   <number>0</number>
   </property>
   <widget class="QWidget" name="page">
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>0</y>
-      <width>201</width>
-      <height>41</height>
+      <x>190</x>
+      <y>20</y>
+      <width>401</width>
+      <height>71</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>32</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;</string>
     </property>
     <property name="text">
      <string>COLAS (queues) </string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>40</y>
+      <x>60</x>
+      <y>80</y>
       <width>651</width>
-      <height>101</height>
+      <height>141</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
-      <italic>true</italic>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+      <italic>false</italic>
       <bold>false</bold>
      </font>
     </property>
     <property name="text">
      <string> Las veces que has ido a un parque de atracciones ya sea SixFlags o Kataplum, apuesto lo que sea ah que has querido ser de los primeros en subirte a una atracccion, a veces tienes suerte y llegas primero, en otras tristemente te toca hasta la COLA.
 Llegas a tu atraccion favorita y quieres subirte, ¿que es lo primero que vez? claro, no podria ser nada mas y nada menos que una fila de niños esperando su turno</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
     <property name="wordWrap">
      <bool>true</bool>
@@ -66,8 +85,8 @@ Llegas a tu atraccion favorita y quieres subirte, ¿que es lo primero que vez? c
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>160</y>
+      <x>60</x>
+      <y>220</y>
       <width>651</width>
       <height>251</height>
      </rect>
@@ -76,25 +95,124 @@ Llegas a tu atraccion favorita y quieres subirte, ¿que es lo primero que vez? c
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Sources/Images/COLAS.jpg</pixmap>
+     <pixmap>Sources/Images/COLAS.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="label_4">
+   <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>410</y>
-      <width>291</width>
-      <height>201</height>
+      <x>190</x>
+      <y>20</y>
+      <width>411</width>
+      <height>71</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>9</pointsize>
-      <italic>true</italic>
+      <family>Caprasimo</family>
+      <pointsize>32</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;color:black</string>
+    </property>
+    <property name="text">
+     <string>COLAS (queues) </string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>490</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(3, 116, 255)</string>
+    </property>
+    <property name="text">
+     <string>SIGUIENTE</string>
+    </property>
+   </widget>
+   <zorder>label_6</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>pushButton</zorder>
+  </widget>
+  <widget class="QWidget" name="page_2">
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>20</y>
+      <width>411</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>32</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;color:black</string>
+    </property>
+    <property name="text">
+     <string>COLAS (queues) </string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>20</y>
+      <width>401</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>32</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;</string>
+    </property>
+    <property name="text">
+     <string>COLAS (queues) </string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>100</y>
+      <width>291</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+      <italic>false</italic>
       <bold>false</bold>
      </font>
     </property>
@@ -110,6 +228,9 @@ El último niño que llegó tendrá que esperar hasta que todos los anteriores p
     <property name="scaledContents">
      <bool>true</bool>
     </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
     <property name="wordWrap">
      <bool>true</bool>
     </property>
@@ -117,22 +238,22 @@ El último niño que llegó tendrá que esperar hasta que todos los anteriores p
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>410</y>
-      <width>291</width>
-      <height>211</height>
+      <x>410</x>
+      <y>100</y>
+      <width>321</width>
+      <height>281</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>9</pointsize>
-      <italic>true</italic>
+      <family>Caprasimo</family>
+      <pointsize>12</pointsize>
+      <italic>false</italic>
       <bold>false</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(0, 0, 0);
-color: rgb(255, 0, 0);</string>
+     <string notr="true"/>
     </property>
     <property name="text">
      <string>Cuando el juego empieza, Niño 1 sale primero.
@@ -147,8 +268,46 @@ Si no hay nadie, la cola está vacía:
 
 Cuando todos los niños han subido al juego, la fila se queda vacía (¡y ya no hay que esperar!).</string>
     </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
     <property name="wordWrap">
      <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>410</y>
+      <width>411</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Sources/Images/rusa.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>470</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(0, 111, 255)</string>
+    </property>
+    <property name="text">
+     <string>TERMINAR</string>
     </property>
    </widget>
   </widget>

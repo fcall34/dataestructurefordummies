@@ -55,7 +55,7 @@ class Ui_StackedWidget(object):
         self.label_3 = QLabel(self.page)
         self.label_3.setObjectName(u"label_3")
         self.label_3.setGeometry(QRect(10, 400, 251, 261))
-        self.label_3.setPixmap(QPixmap(u"../Sources/Images/Sillas Circulares.jpeg"))
+        self.label_3.setPixmap(QPixmap(u"Sources/Images/Sillas Circulares.jpeg"))
         self.label_3.setScaledContents(True)
         StackedWidget.addWidget(self.page)
 
